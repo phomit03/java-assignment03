@@ -66,7 +66,7 @@ public class Room {
         System.out.println("\nRoom name: " + this.roomName);
         System.out.println("Location: " + this.location);
         System.out.println("Room rent: " + this.roomRent);
-        if (userlist == null){
+        if (userlist.size() == 0){
             System.out.println("List of users renting rooms: empty room");
         } else {
             System.out.println("List of users renting rooms: "  + this.userlist);
